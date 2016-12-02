@@ -1,0 +1,97 @@
+[
+  {
+    "title": "date",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "date"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },
+  {
+    "title": "daterange",
+    "fields": {
+      "id": {
+        "label": "start name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "end": {
+        "label": "end name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "daterange"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },
+  {
+    "title": "timerange",
+    "fields": {
+      "id": {
+        "label": "start name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "end": {
+        "label": "end name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "timerange"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },
+  {
+    "title": "datetimerange",
+    "fields": {
+      "id": {
+        "label": "start name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "end": {
+        "label": "end name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "datetimerange"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  }
+]

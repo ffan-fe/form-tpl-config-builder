@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Text Input",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "Text Input"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "minlength": {
+        "label": "minlength",
+        "type": "input",
+        "value": ""
+      },
+      "maxlength": {
+        "label": "maxlength",
+        "type": "input",
+        "value": ""
+      }
+    }
+  },
+  {
+    "title": "number input",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "number input"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "min": {
+        "label": "min",
+        "type": "input",
+        "value": ""
+      },
+      "max": {
+        "label": "max",
+        "type": "input",
+        "value": ""
+      }
+    }
+  },
+  {
+    "title": "Text Area",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "Text Area"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "minlength": {
+        "label": "minlength",
+        "type": "input",
+        "value": ""
+      },
+      "maxlength": {
+        "label": "maxlength",
+        "type": "input",
+        "value": ""
+      }
+    }
+  },
+  {
+    "title": "Rich Text",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "Rich Text"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "minlength": {
+        "label": "minlength",
+        "type": "input",
+        "value": ""
+      },
+      "maxlength": {
+        "label": "maxlength",
+        "type": "input",
+        "value": ""
+      }
+    }
+  }
+]

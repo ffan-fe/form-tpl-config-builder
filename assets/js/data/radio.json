@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Multiple Radios Inline",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "radio"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "radios": {
+        "label": "Radios",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2
+        ]
+      }
+    }
+  },
+  {
+    "title": "Multiple checkboxes Inline",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "checkbox"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "checkboxes": {
+        "label": "Checkboxes",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  }
+]

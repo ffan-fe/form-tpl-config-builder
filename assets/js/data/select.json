@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Select Basic",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "select"
+      },
+      "options": {
+        "label": "Options",
+        "type": "textarea-split",
+        "value": [
+          "Option one",
+          "Option two"
+        ]
+      }
+    }
+  },
+  {
+    "title": "uiselect",
+    "fields": {
+      "id": {
+        "label": "name",
+        "type": "input",
+        "value": "绑到model上的键"
+      },
+      "label": {
+        "label": "displayName",
+        "type": "input",
+        "value": "uiselect"
+      },
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
+      },
+      "url": {
+        "label": "url",
+        "type": "input",
+        "value": "get/uiselect"
+      }
+    }
+  }
+]
