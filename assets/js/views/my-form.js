@@ -58,7 +58,7 @@ define([
         }
       }
 
-      if (this.collection.models && Array.isArray(this.collection.models) && this.collection.models.length > 1) {
+      if (this.collection.models && Array.isArray(this.collection.models) && this.collection.models.length) {
         var Copyed = _.clone(this.collection.models);
 
         var rangeTypes = [
