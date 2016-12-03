@@ -74,8 +74,10 @@ define([
           filed.displayName = v.attributes.fields.label.value;
 
           filed.validateRules = {};
-          filed.validateRules.required = v.attributes.fields.required.value;
 
+          if (v.attributes.fields.required) {
+            filed.validateRules.required = v.attributes.fields.required.value;
+          }
           if(v.attributes.fields.minlength && v.attributes.fields.minlength.value){
             filed.validateRules.minlength = v.attributes.fields.minlength.value;
           }
