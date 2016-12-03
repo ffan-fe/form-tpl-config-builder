@@ -88,6 +88,36 @@ define([
           if(v.attributes.fields.max && v.attributes.fields.max.value){
             filed.validateRules.max = v.attributes.fields.max.value;
           }
+          if(v.attributes.fields.radios && v.attributes.fields.radios.value && Array.isArray(v.attributes.fields.radios.value)){
+            filed.options = [];
+            v.attributes.fields.radios.value.forEach(function (innerV) {
+              filed.options.push({
+                text: innerV,
+                value: innerV
+              });
+            });
+          }
+          if(v.attributes.fields.checkboxes && v.attributes.fields.checkboxes.value && Array.isArray(v.attributes.fields.checkboxes.value)){
+            filed.options = [];
+            v.attributes.fields.checkboxes.value.forEach(function (innerV) {
+              filed.options.push({
+                text: innerV,
+                value: innerV
+              });
+            });
+          }
+          if(v.attributes.fields.options && v.attributes.fields.options.value && Array.isArray(v.attributes.fields.options.value)){
+            filed.options = [];
+            v.attributes.fields.options.value.forEach(function (innerV) {
+              filed.options.push({
+                text: innerV,
+                value: innerV
+              });
+            });
+          }
+          if(v.attributes.fields.url){
+            filed.url = v.attributes.fields.url;
+          }
 
           if (~rangeTypes.indexOf(filed.type)) {
             filed.name = [];
